@@ -6,6 +6,7 @@ import {
     IconMenu,
     IconSwipeUp,
     IconX,
+    IconChevronsDown
 } from "@tabler/icons-react";
 import { Transition } from "@headlessui/react";
 import { useEffect, useRef, useState } from "react";
@@ -172,7 +173,7 @@ export default function Home() {
 
             <div className="min-h-screen relative bg-black">
                 <div className="absolute bottom-0 left-0 w-full flex justify-center pb-12 z-[25]">
-                    <IconSwipeUp className="h-12 w-12 text-white opacity-20 animate-bounce" />
+                    <IconChevronsDown className="h-12 w-12 text-white opacity-20 animate-bounce" />
                 </div>
                 <div className="absolute top-0 left-0 h-full w-full flex items-center z-[20]">
                     <div className="w-full">

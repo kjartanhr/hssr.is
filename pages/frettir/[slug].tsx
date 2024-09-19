@@ -1,7 +1,11 @@
 import { GetStaticPropsContext } from "next";
 
 export default function Stuff({ post }: { post: T_WordPress_Post }) {
-    return <pre>{JSON.stringify(post, null, 2)}</pre>;
+    return (
+        <pre className="p-8 whitespace-pre-wrap">
+            {JSON.stringify(post, null, 2)}
+        </pre>
+    );
 }
 
 export type T_WordPress_Post = {

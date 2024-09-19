@@ -2,20 +2,20 @@
 
 Tillaga að nýjum vef fyrir Hjálparsveit skáta í Reykjavík.
 
-Unnið HSSR að kostnaðarlausu.
+Unnið HSSR að kostnaðarlausu. Verkið er enn í vinnslu.
 
-# Dev
+## Dev
 
 ```sh
 $~/ pnpm i
 $~/ pnpm run dev
 ```
 
-# Build
+## Build
 
 ```sh
 $~/ pnpm i
 $~/ pnpm run build
 ```
 
-Enn í vinnslu.
+Ef þig vantar samskonar vef býð ég upp á faglega vefforritunar og vefhönnunarþjónustu í gegnum félagið mitt [Spaug](https://spaugur.is/).

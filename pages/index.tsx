@@ -4,7 +4,6 @@ import {
     IconArrowUpRight,
     IconChevronRight,
     IconMenu,
-    IconSwipeUp,
     IconX,
     IconChevronsDown
 } from "@tabler/icons-react";
